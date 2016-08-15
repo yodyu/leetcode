@@ -1,7 +1,8 @@
 /* 371. Sum of Two Integers
+ * 位运算
  * s = a ^ b 在忽略进位的情况下a与b的和
  * c = a & b 各个位的进位
- * a b的和等于s c的和
+ * a b的和等于s c<<1 的和
 */
 public class Solution {
 
